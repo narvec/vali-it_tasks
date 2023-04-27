@@ -57,6 +57,7 @@ function Blog() {
     return (
 
             <div className="App">
+                {/* eslint-disable-next-line react/jsx-pascal-case */}
                     <Navbar_></Navbar_>
                 <header className="App-header">
                     <Typography variant="h4" >Author and Musician retrieving app</Typography>

@@ -7,7 +7,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import {Container, css, Menu, MenuItem} from "@mui/material";
+import {Container, Menu, MenuItem} from "@mui/material";
 
 
 function Navbar() {

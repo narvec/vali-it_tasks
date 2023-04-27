@@ -10,7 +10,6 @@ export default  function Basket (props) {
     return(
         <div>
         <h2>Cart Items</h2>
-        {/*//Create "<div>" for conditional rendering*/}
         <div>
             {cartItems.length === 0 && <div>Cart Is Empty </div> }
         </div>
@@ -26,7 +25,7 @@ export default  function Basket (props) {
                 </div>
             </div>
         ))}
-        {/*When added new consts (itemsPrice, taxPrice, shippingPrice, totalPrice) create conditional rendering*/}
+
         {cartItems.length !== 0 && (
             <>
                 <hr></hr>

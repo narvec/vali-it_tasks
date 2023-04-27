@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/narvec/vali-it_tasks/static/css/main.92c1d842.css",
+    "main.js": "/narvec/vali-it_tasks/static/js/main.2e7fe7e4.js",
+    "static/js/787.39bb0775.chunk.js": "/narvec/vali-it_tasks/static/js/787.39bb0775.chunk.js",
+    "static/media/image3.png": "/narvec/vali-it_tasks/static/media/image3.4d28f5498a3b2a3c8968.png",
+    "static/media/image2.png": "/narvec/vali-it_tasks/static/media/image2.0c36b95448e7a756643f.png",
+    "static/media/image1.png": "/narvec/vali-it_tasks/static/media/image1.7e2896129d8741b86e5d.png",
+    "index.html": "/narvec/vali-it_tasks/index.html",
+    "main.92c1d842.css.map": "/narvec/vali-it_tasks/static/css/main.92c1d842.css.map",
+    "main.2e7fe7e4.js.map": "/narvec/vali-it_tasks/static/js/main.2e7fe7e4.js.map",
+    "787.39bb0775.chunk.js.map": "/narvec/vali-it_tasks/static/js/787.39bb0775.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92c1d842.css",
+    "static/js/main.2e7fe7e4.js"
+  ]
+}

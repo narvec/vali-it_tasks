@@ -2,12 +2,42 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Blog from '../src/pages/Blog'
+import Shop from '../src/pages/Shop'
+import Fintech from "./pages/Fintech";
 import reportWebVitals from './reportWebVitals';
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <App/>,
+    },
+    {
+        path: "Blog",
+        element: <Blog/>,
+    },
+    {
+        path: "Shop",
+        element: <Shop/>,
+    },
+    {
+        path: "Fintech",
+        element: <Fintech/>,
+    },
+
+
+
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

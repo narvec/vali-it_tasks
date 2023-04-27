@@ -1,40 +1,27 @@
-export const storeProducts = [
-    {
-        id: 1,
-        title: "First",
-        img: "components/images/image1.png",
-        price: 12,
-        inCart: false,
-        count: 0,
-        total: 0
-    },
-    {
-        id: 2,
-        title: "Second",
-        img: "components/images/image1.png",
-        price: 15,
-        inCart: false,
-        count: 0,
-        total: 0
-    },
-    {
-        id: 3,
-        title: "Third",
-        img: "components/images/image1.png",
-        price: 34,
-        inCart: false,
-        count: 0,
-        total: 0
-    }
+import product1 from "../components/images/image1.png";
+import product2 from "../components/images/image2.png";
+import product3 from "../components/images/image3.png";
 
-];
-
-export const detailProduct = {
-    id: 1,
-    title: "First",
-    img: "components/images/image1.png",
-    price: 12,
-    inCart: false,
-    count: 0,
-    total: 0
+const data = {
+    products: [
+        {
+            id:'1',
+            name: 'Mobile scanner',
+            price: 200,
+            image: product1,
+        },
+        {
+            id:'2',
+            name: 'Bottle of chemicals',
+            price: 169,
+            image: product2,
+        },
+        {
+            id:'3',
+            name: 'Washing gel',
+            price: 319,
+            image: product3,
+        },
+    ],
 };
+export default data;

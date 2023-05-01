@@ -79,7 +79,7 @@ function Blog() {
                                 noValidate
                                 autoComplete="off"
                             >
-                                  <TextField id="outlined-basic" label="Author or musician" variant="outlined" value={inputValue} onChange={handleSearchChange} />
+                                  <TextField id="outlined-basic" label="Type author/musician name..." variant="outlined" value={inputValue} onChange={handleSearchChange} />
                                     {authorData.length > 0 && <ul>
                                         {authorData && authorData.map((item) => {
                                             return <li key={item.key}>{item.name}</li>

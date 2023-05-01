@@ -6,6 +6,7 @@ import Select from 'react-select'
 import LineChart from "../Charts/LineChart";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
 
 const apiKey = "EbH7m3m1bUzT6Mbb40YMiGU1rxhYl04T";
 const baseUrl = "https://api.polygon.io/v2/aggs/ticker/";
@@ -80,25 +81,29 @@ function Fintech() {
                         }}>
                             <Select options={options} onChange={handleChange}/>
                         </Box>
+                    <Grid item xs={12} sm={6} md={4} lg={3}>
                     <Box sx={{
                         display: 'flex',
                         flexDirection: 'column',
-                    }}>
-                            <Box sx={{
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                                    width: '70%',
-                                    height: '50%',
-                                    padding: 5,
-                                    borderRadius: 5,
-                                    margin: '0 auto',
-                                    marginBottom: '5px',
-                                }}>
-                                        {Object.keys(chartData).length >0 && <LineChart chartData={chartData}/>}
-                        </Box>
-                    </Box>
+                        maxWidth: '90%',
+                        margin: 'auto',
 
+                    }}>
+                            {/*<Box sx={{*/}
+                            {/*        display: 'flex',*/}
+                            {/*        flexDirection: 'column',*/}
+                            {/*        backgroundColor: 'rgba(255, 255, 255, 0.8)',*/}
+                            {/*        width: '70%',*/}
+                            {/*        height: '50%',*/}
+                            {/*        padding: 5,*/}
+                            {/*        borderRadius: 5,*/}
+                            {/*        margin: '0 auto',*/}
+                            {/*        marginBottom: '5px',*/}
+                            {/*    }}>*/}
+                                        {Object.keys(chartData).length >0 && <LineChart chartData={chartData}/>}
+                        {/*</Box>*/}
+                    </Box>
+                    </Grid>
 
                 </main>
             <div style={{ backgroundColor: '#862e2e' }}></div>

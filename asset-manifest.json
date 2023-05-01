@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/vali-it_tasks/static/css/main.92c1d842.css",
-    "main.js": "/vali-it_tasks/static/js/main.db1099a1.js",
+    "main.js": "/vali-it_tasks/static/js/main.1d25eaba.js",
     "static/media/image3.png": "/vali-it_tasks/static/media/image3.4d28f5498a3b2a3c8968.png",
     "static/media/image2.png": "/vali-it_tasks/static/media/image2.0c36b95448e7a756643f.png",
     "static/media/image1.png": "/vali-it_tasks/static/media/image1.7e2896129d8741b86e5d.png",
     "index.html": "/vali-it_tasks/index.html",
     "main.92c1d842.css.map": "/vali-it_tasks/static/css/main.92c1d842.css.map",
-    "main.db1099a1.js.map": "/vali-it_tasks/static/js/main.db1099a1.js.map"
+    "main.1d25eaba.js.map": "/vali-it_tasks/static/js/main.1d25eaba.js.map"
   },
   "entrypoints": [
     "static/css/main.92c1d842.css",
-    "static/js/main.db1099a1.js"
+    "static/js/main.1d25eaba.js"
   ]
 }

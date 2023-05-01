@@ -35,7 +35,7 @@ function Fintech() {
     const handleChange = async (selectedOption) => {
         let url = baseUrl + selectedOption.value + '/range/1/day/' + startDate + '/' + endDate + '?adjusted=true&sort=asc&limit=120&apiKey=' + apiKey;
         console.log(url)
-        const response = await axios.get(url)
+        await axios.get(url)
             .then(response => {
                 let list = response.data.results;
                 console.log(list)
@@ -51,14 +51,15 @@ function Fintech() {
                         },
                     ],
                 })
-                }).catch(error => {
-                    console.log('error')
-                })
-            }
+            }).catch(error => {
+                console.log('error')
+            });
+    }
 
 
     return (
         <div className="App">
+            {/* eslint-disable-next-line react/jsx-pascal-case */}
             <Navbar_></Navbar_>
             <header className="App-header">
                 <Typography variant ="h3">Stock Market</Typography>
